@@ -1,0 +1,23 @@
+{
+  "name": "webpanaderia",
+  "version": "1.0.0",
+  "description": "mi primer proyecto node.js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonathanandino/WebPanaderia.git"
+  },
+  "author": "Jonathan Andino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jonathanandino/WebPanaderia/issues"
+  },
+  "homepage": "https://github.com/jonathanandino/WebPanaderia#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
