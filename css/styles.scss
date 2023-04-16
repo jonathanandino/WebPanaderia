@@ -1,0 +1,72 @@
+$orange: #ff8800;
+$yellow:#ffe100;
+$green:#1eff00;
+$red: #d4080c;
+
+@mixin margenes ($top, $margin){
+    margin-top: $top;
+    margin: $margin;
+}
+
+.sass {
+    background-color: $yellow;
+    color: $red;
+    border-color: $green;
+}
+
+.title{
+    background-image: url('/img/panes_inicio.jpg');
+    padding: 3em;
+}
+.jumbotron{
+    @include margenes(2rem, 0rem)
+}
+.card-characteristics{
+    padding: 2em;
+}
+
+.icon {
+    color: $orange;
+    margin:1em;
+    font-size:55px;
+}
+.logo {
+    color: $orange;
+    padding:1em;
+}
+
+.cardProduct{
+ width: 16rem;
+ margin: 5px;
+}
+
+.icon-nav{
+    font-size: 2rem;
+    color:$orange;
+    margin-right: 15px;
+}
+
+.icon-footer{
+    font-size: 6rem;
+    color:$orange;
+}
+
+.nav-i {
+    --bs-breadcrumb-divider: '>';
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+  }
+
+  .cont {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .num-cant{
+    font-size:22px;
+    color: gray
+  }

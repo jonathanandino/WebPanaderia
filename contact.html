@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css css/index.css -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css" rel="stylesheet">
+    <link href="node_modules/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+        <!-- endbuild -->
+
+    <title>Panadería</title>
+  </head>
+  <body>
+
+    <header class="p-3 text-bg-dark">
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container">
+          <i class="bi bi-sunset-fill icon-nav"></i>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" href="index.html"></span>
+          </button>
+
+          <div class="collapse navbar-collapse row" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0 col-8 col-lg-auto m-md-2 m-xs-5 ">
+              <li class="nav-item"><a class="nav-link" aria-current="page" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="price.html">Precios</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">Nosotros</a></li>
+              <li class="nav-item"><a class="nav-link" href="FAQ.html">FAQ</a></li>
+              <li class="nav-item"><a class="nav-link active" href="#">Contacto</a></li>
+            </ul>      
+            <div class="ml-auto row">
+
+              <form class="col-4 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input type="search" class="form-control form-control-dark text-bg-dark" placeholder="Search..." aria-label="Search">
+              </form>
+    
+              <div class="">
+                <button type="button" class="btn btn-outline-light me-2">Login</button>
+                <button type="button" class="btn btn-warning">Sign-up</button>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+    <main>
+      <div class="jumbotron title">
+        <h1>Contacto</h1>
+      </div>
+
+      <div class="container">
+        <nav class="nav-i" aria-label="breadcrumb">
+            <ol class="breadcrumb mt-3">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            </ol>
+        </nav>
+
+        <form class="p-5">
+            <div class="row">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                </div>
+                <div class="col p-1">
+                    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8">
+                    <label for="inputCity" class="form-label">Dirección</label>
+                    <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="col-md-4">
+                    <label for="inputState" class="form-label">Departamento</label>
+                    <select id="inputState" class="form-select">
+                      <option selected>Seleccionar...</option>
+                      <option>Artigas</option>
+                      <option>Canelones</option>
+                      <option>Cerro Largo</option>
+                      <option>Colonia</option>
+                      <option>Durazno</option>
+                      <option>Flores</option>
+                      <option>Florida</option>
+                      <option>Lavalleja</option>
+                      <option>Montevideo</option>
+                      <option>Maldonado</option>
+                      <option>Paysandy</option>
+                      <option>Rio Negro</option>
+                      <option>Rivera</option>
+                      <option>Rocha</option>
+                      <option>San Jose</option>
+                      <option>Salto</option>
+                      <option>Soriano</option>
+                      <option>Tacuarembo</option>
+                      <option>Treinta y Tres</option>
+                    </select>
+                  </div>
+                </div>
+                <div class=" col mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="form-check m-2">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Quiero que me contacten
+                    </label>
+                  </div>
+                <div class="col-12 ">
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </div>
+            </div>
+        </form>
+      </div>
+      <br>
+
+      <!-- FOOTER -->
+      <footer class=" bg-dark text-white href-dark p-4">
+        <div class="row">
+          <div class="col-sm-3 text-center logo">
+            <i class="bi bi-sunset-fill icon-footer"></i>
+          </div>
+
+          <div class="col-sm-3 ">
+            <h5>Redes</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Facebook</a></li>
+              <li><a class="link-secondary" href="#">Instagram</a></li>
+              <li><a class="link-secondary" href="#">Twitter</a></li>
+              <li><a class="link-secondary" href="#">TikTok</a></li>
+            </ul>
+          </div>
+
+          <div class="col-sm-3">
+            <h5>Dirección</h5>
+            <address class="list-unstyled text-small">
+              <p>Lavalleja 444, Montevideo, Uruguay</p>
+              <p>+454778473</p>
+            <p>contacto@panaderia.com</p>
+            </address>
+          </div>
+          
+          <div class="col-sm-3">
+            <h5>Guía</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="price.html">Precios</a></li>
+              <li><a class="link-secondary" href="about.html">Nosotros</a></li>
+              <li><a class="link-secondary" href="FAQ.html">FAQ</a></li>
+              <li><a class="link-secondary" href="contact.html">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </main>
+        <!-- build:js js/main.js -->
+        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>
